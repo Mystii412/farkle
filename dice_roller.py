@@ -34,7 +34,7 @@ class DiceRoller:
 
     def get_score(self):
         """
-        function
+        gets score
         """
         pa = 0
         total = 0
