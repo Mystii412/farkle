@@ -21,7 +21,7 @@ class DiceRoller:
         """
         this function adds up every number in the values list into one total number
         """
-        total = 0
+        total = 00
         for num in self.values:
             total += num
         return total
