@@ -11,7 +11,6 @@ class Player:
     def playus(self, num):
         for i in range(num):
             name = input("what is your name:")
-            print(i)
             self.players[i] = name
 
     def points(self, idx, total):
@@ -105,7 +104,6 @@ def main():
         players = int(input("how many players cuh11111: "))
         player = Player(players)
         player.playus(players)
-        print(player.players)
         againagain = 0
         againquestionmark = 0
         while True:
